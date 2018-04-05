@@ -26,3 +26,6 @@ cacion
 
 	git remote Crear un repistorio espejo que mantendra un vinculo local de un repositorio remoto
 	git remote add 	<origin> <url o direccion del repositorio> Crear el vinculo a otro repositorio
+git remote rm <origin> Elimina un repositorio remoto
+
+git push -u origin master
