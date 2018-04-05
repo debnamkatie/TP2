@@ -1,3 +1,4 @@
+
 Comados de sistema
 	cd 
 	cd ..
@@ -6,14 +7,22 @@ Comados de sistema
 	rm elimina archivos
 	ls enlista archivos y carpetas
 	ls -a  enlista todos los archivos y carpetas
+Terminologia
+	Repositorio-> 
+
 Comandos de git
-git config --global user.name nombre
-git config --global user.email email
+	git config --global user.name nombre
+	git config --global user.email email
 
-git init	Crea el repositorio
+	git init	Crea el repositorio
 
-git add NombreDeArchivo Agregar el archivo al stage
-git commit -m"Descripcion del commit, entre mas clara mejor"
+	git add NombreDeArchivo Agregar el archivo al stage
+	git commit -m"Descripcion del commit, entre mas clara mejor"
 
-git status  permite saber el estatus del repositorio
-git log	    Permite ver el historial de commits
+	git status  permite saber el estatus del repositorio
+	git log	    Permite ver el historial de commits
+	git clone	Copiar un repositorio de otra ubi
+cacion
+
+	git remote Crear un repistorio espejo que mantendra un vinculo local de un repositorio remoto
+	git remote add 	<origin> <url o direccion del repositorio> Crear el vinculo a otro repositorio
